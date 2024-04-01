@@ -1,0 +1,207 @@
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000268;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #000268;
+    border-radius: 5px;
+    table-layout: fixed
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #000268;
+    text-align: left;
+    white-space: nowrap; 
+}
+
+th {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #3f6083;
+    color: #fff;
+    resize: horizontal; 
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+button {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+/* for the notifications list */
+.notification-list {
+    margin-top: 20px;
+}
+
+.notification-list h3 {
+    font-size: 18px;
+    color: red; 
+}
+
+
+
+.notification-list p {
+    font-size: 18px;
+    color: green; 
+}
+
+/* for the menu in top */
+.menu {
+    background-color: #3f6083; 
+    overflow: hidden;
+}
+
+.menu a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: #547ff3; 
+}
+
+/* for the new category button */
+#newCatBtn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.plus-sign {
+    margin-right: 5px;
+}
+
+
+/* for the new task button */
+#newTaskBtn {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.plus-sign {
+    margin-right: 5px;
+}
+
+
+/* for the buttons edit and delete in task list and category list*/
+#EditBtn {
+    background-color: #007bff; 
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#EditBtn:hover {
+    background-color: #0056b3; 
+}
+
+
+#DeleteBtn {
+    background-color: #af2020; 
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#DeleteBtn:hover {
+    background-color: #7e0606; 
+}
+
+
+
+
+#logoutBtn {
+    background-color: #af2020; 
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+#DeleteBtn:hover {
+    background-color: #7e0606; 
+}
+
+/* for success add, editing tasks-categories */
+.success-message {
+    background-color: #dff0d8; 
+    color: #3c763d; 
+    padding: 10px;
+    border: 1px solid #d6e9c6;
+    border-radius: 4px; 
+    margin-bottom: 10px; 
+}
